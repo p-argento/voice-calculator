@@ -1,0 +1,16 @@
+# Secrets scritti da `elevenlabs onboard` e dal progetto
+.env
+/.env
+
+# Ambiente virtuale e cache Python
+.venv/
+__pycache__/
+
+# Audio: registrazioni della tua voce e risposte generate
+*.wav
+*.mp3
+
+# Skill e strumenti locali di Claude Code (non fanno parte del progetto)
+.agents/
+.claude/
+skills-lock.json
